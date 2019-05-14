@@ -1,0 +1,31 @@
+.c-video {
+    border: 10px solid $color-gray-brightest;
+    border-radius: 20px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.c-video__size {
+    width: 100%;
+    height: 100%;
+}
+
+.c-subscribe__video {
+    width: $size-subscribe-video-width-mobile;
+    height: $size-subscribe-video-heigth-mobile;
+    
+    @include media-tablets {
+        width: $size-subscribe-video-width-tablets;
+        height: $size-subscribe-video-heigth-tablets;
+    }
+
+    @include media-laptops {
+        width: $size-subscribe-video-width-tablets;
+        height: $size-subscribe-video-heigth-tablets;
+    }
+
+    @include media-desctops {
+        width: $size-subscribe-video-width-tablets;
+        height: $size-subscribe-video-heigth-tablets;
+    }
+}

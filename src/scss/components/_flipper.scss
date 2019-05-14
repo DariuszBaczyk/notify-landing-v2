@@ -1,0 +1,59 @@
+.c-flipper {
+    @include transform(0.6s, preserve-3d);
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+        @include rotateY(180deg);
+    }
+}
+
+.c-flipper--small {
+    width: 40px;
+    height: 40px;
+}
+
+.c-flipper__front, 
+.c-flipper__back {
+    -webkit-c-flipper__backface-visibility: hidden;
+    -moz-c-flipper__backface-visibility: hidden;
+    -o-c-flipper__backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.c-flipper__front {
+    width: 50px;
+    height: 50px;
+    color: $color-gray-brightest;
+    font-size: 1.5rem;
+    background-color: $color-black;
+    opacity: 0.5;
+    border-radius: 50%;
+    z-index: 2;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.c-flipper__front--small {
+    width: 40px;
+    height: 40px;
+    color: $color-white;
+    background-color: $color-grey-brighter;
+    opacity: 1;
+}
+
+.c-flipper__back {
+    @include rotateY(180deg);
+    width: 50px;
+    height: 50px;
+    color: $color-white;
+    background-color: $color-red;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.c-flipper__back--small {
+    width: 40px;
+    height: 40px;
+}

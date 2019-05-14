@@ -1,0 +1,23 @@
+.l-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    height: $size-hero-banner;
+    border-top: $size-hero-line $color-red solid;
+    background: url("../images/bg-hand-with-phone.jpg") no-repeat;
+    background-size: cover;
+}
+
+.l-hero__container {
+    margin-left: 20vw;
+}
+
+.l-hero__systems{
+    @include perspective(1000);
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-gap: 1rem;
+    position: relative;
+    margin: 20px;
+}

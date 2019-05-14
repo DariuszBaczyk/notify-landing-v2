@@ -1,0 +1,19 @@
+.l-footer {
+    background-color: $color-gray-brightest; 
+}
+
+.l-footer__links {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-gap: 10px;
+    align-self: center;
+    justify-items: center;
+    justify-content: center;
+    max-width: $size-footer-links-width;
+    margin: 50px auto 50px;
+    color: $color-grey;
+
+    @include media-tablets {
+        grid-template-columns: repeat(6, minmax(100px, 1fr));
+    }
+}

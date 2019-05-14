@@ -1,0 +1,11 @@
+.c-btn {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.c-btn--red {
+    color: $color-white;
+    background-color: $color-red;
+}

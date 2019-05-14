@@ -1,0 +1,51 @@
+.c-form__title {
+    margin: 20px 0;
+    text-align: center;
+
+    @include media-laptops {
+        text-align: left;
+    }
+ }
+
+ .c-form__text {
+    padding-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: $color-grey;
+ }
+
+ .c-form__email {
+    display: grid;
+    position: relative;
+    width: 85%;
+    background: $color-white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: auto;
+
+    @include media-laptops {
+        margin: 0;
+    }
+}
+
+.c-form__email-input {
+    border: none;
+    padding: 15px 2px;
+    font-size: 16px;
+    margin: 0 5%;
+    height: 50px;
+    width: 95%;
+}
+
+.c-form__btn {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    border: none;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    transition: all ease 0.5s;
+    font-size: 18px;
+}

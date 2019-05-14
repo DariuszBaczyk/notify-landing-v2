@@ -1,0 +1,27 @@
+// ---------- Base ----------
+    @import "base/variables";
+    @import "base/mixins";
+    @import "base/typography";
+    @import "base/media-config";
+
+// ---------- Layout and sections ----------
+    @import "layout/footer";
+    @import "layout/header";
+    @import "layout/main";
+    @import "layout/sections";
+   
+// ---------- Components ----------
+    @import "components/forms";
+    @import "components/buttons";
+    @import "components/flipper";
+    @import "components/icons";
+    @import "components/video";
+
+// ---------- Font Awasome ----------
+    @import "vendor/fontawesome/fontawesome";
+    @import "vendor/fontawesome/solid";
+    @import "vendor/fontawesome/brands";
+
+// ---------- Slick slider ----------
+    @import "vendor/slick/slick";
+    @import "vendor/slick/slick-theme";

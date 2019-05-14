@@ -1,0 +1,39 @@
+// ---------- Colors ----------
+$color-red: #d4213d;
+$color-white: #fff;
+$color-black: #000;
+$color-grey: #888;
+$color-grey-brighter: #d4d4d4;
+$color-gray-brightest: #e3e3e3;
+
+// ---------- Gradients ----------
+$gradient-white-to-transparent: rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%;
+
+// ---------- Sizes ----------
+
+    // --- Hero sizes ---
+    $size-hero-banner: 99vh;
+    $size-hero-line: 1vh;
+    $size-system-icons: 50px;
+
+    // --- Hero sizes ---
+    $size-features-icons: 80px;
+
+    // --- Subscribe sizes ---
+    $size-subscribe-video-width-mobile: 380px;
+    $size-subscribe-video-heigth-mobile: 220px;
+    $size-subscribe-video-width-tablets: 540px;
+    $size-subscribe-video-heigth-tablets: 320px;
+    $size-subscribe-video-width-laptops: 420px;
+    $size-subscribe-video-heigth-laptops: 250px;
+    $size-subscribe-video-width-desctops: 540px;
+    $size-subscribe-video-heigth-desctops: 320ps;
+
+    // --- Testimonials sizes ---
+    $size-testimonials-width: 90vw;
+
+    // --- Social sizes ---
+    $size-social-icons: 40px;
+
+    // --- Footer sizes ---
+    $size-footer-links-width: 700px;

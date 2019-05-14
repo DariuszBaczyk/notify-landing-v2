@@ -1,0 +1,25 @@
+.c-icon {
+    display: grid;
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+}
+
+.c-icon--system {
+    height: $size-system-icons;
+    width: $size-system-icons;
+}
+
+.c-icon--feature-item {
+    position: relative;
+    width: $size-features-icons;
+    height: $size-features-icons;
+    background-color: $color-red;
+    border-radius: 50%;
+    font-size: 2.5rem;
+}
+
+.c-icon--social-icon {
+    height: $size-social-icons;
+    width: $size-social-icons;
+}

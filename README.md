@@ -33,7 +33,8 @@ npm run production
 
 ## Classes legend
 
-#Class prefixes
+Class prefixes
+
 "l-" -> layout style
 "c-" -> component style
 "js-" -> JavaScript hooks

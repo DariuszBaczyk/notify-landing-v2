@@ -54,7 +54,31 @@ p {
     margin: 20px;
 }
 
-.hero__text {
+.t-hero__text {
     font-size: 24px;
     margin: 20px;
+}
+
+// Features area text
+
+.t-feature-item__title {
+    margin: 20px;
+}
+
+.t-feature-item__text {
+    font-family: Arial, sans-serif;
+    color: $color-grey;
+}
+
+// Testimonials area text
+
+.t-client__quote {
+    margin: 40px 0 20px;
+    padding: 0 10%;
+    font: italic 18px Arial, sans-serif;
+    color: $color-grey;
+}
+
+.t-client__name {
+    font-size: 18px;
 }

@@ -23,17 +23,6 @@
     }
 }
 
-.l-feature-item__title {
-    margin: 20px;
-}
-
-.l-feature-item__text {
-    font-family: Arial, sans-serif;
-    color: $color-grey;
-}
-    
-
-
 // ---------- Features end ----------
 
 // ---------- Subscribe start ----------
@@ -63,17 +52,6 @@
 
 .l-testimonials {
     width: $size-testimonials-width;
-}
-
-.l-client__quote {
-    margin: 40px 0 20px;
-    padding: 0 10%;
-    font: italic 18px Arial, sans-serif;
-    color: $color-grey;
-}
-
-.l-client__name {
-    font-size: 18px;
 }
 
 .l-testimonials__nav {

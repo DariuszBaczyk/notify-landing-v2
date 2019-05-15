@@ -35,9 +35,25 @@ p {
   font: 60px "Gochi Hand", sans-serif;
   margin: 20px; }
 
-.hero__text {
+.t-hero__text {
   font-size: 24px;
   margin: 20px; }
+
+.t-feature-item__title {
+  margin: 20px; }
+
+.t-feature-item__text {
+  font-family: Arial, sans-serif;
+  color: #888; }
+
+.t-client__quote {
+  margin: 40px 0 20px;
+  padding: 0 10%;
+  font: italic 18px Arial, sans-serif;
+  color: #888; }
+
+.t-client__name {
+  font-size: 18px; }
 
 .l-footer {
   background-color: #e3e3e3; }
@@ -122,13 +138,6 @@ li {
   .l-features__feature-item .l-feature-item__icon {
     margin: auto; }
 
-.l-feature-item__title {
-  margin: 20px; }
-
-.l-feature-item__text {
-  font-family: Arial, sans-serif;
-  color: #888; }
-
 .l-subscribe {
   background-color: #e3e3e3;
   padding: 50px 0; }
@@ -147,15 +156,6 @@ li {
 
 .l-testimonials {
   width: 90vw; }
-
-.l-client__quote {
-  margin: 40px 0 20px;
-  padding: 0 10%;
-  font: italic 18px Arial, sans-serif;
-  color: #888; }
-
-.l-client__name {
-  font-size: 18px; }
 
 .l-testimonials__nav {
   position: relative;
